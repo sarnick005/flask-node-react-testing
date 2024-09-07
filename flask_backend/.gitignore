@@ -1,0 +1,26 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+*.env
+
+# Flask-specific
+instance/
+*.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+instance/*
+!instance/.gitignore
+.webassets-cache
+.env
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Flask
